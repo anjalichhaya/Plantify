@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plantify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <aside id="side">
+    <nav>
+      <div class="section">
+        <p class="text">MENU</p>
+        <a href="#" class="navl">🏠 Home</a>
+        <a href="#" class="navl">🌿 Plants</a>
+        <a href="#" class="navl">🍯 Pots & Trays</a>
+      </div>
+
+      <div class="section">
+        <p class="text">RESOURCES</p>
+        <a href="#" class="navl">📖 Care Guide</a>
+        <a href="#" class="navl">🚚 Delivery Info</a>
+      </div>
+    </nav>
+
+    <div id="bottom">
+      <a href="#" class="navl">⚙️ Settings</a>
+      <a href="#" style="color:red; text-decoration: none;" onclick="logout()">🚪 Logout</a>
+    </div>
+  </aside>
+
+
+  <header>
+    <button id="toggleBtn">☰</button>
+    <h2>🌱 Plantify</h2>
+    <input id="i" type="text" placeholder="Search plants...">
+  </header>
+
+ 
+  <main>
+    <section class="nature">
+      <h1>Bring Nature Indoors</h1>
+      <p>Explore Collection</p>
+    </section>
+
+    <section class="products">
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/68/2d/17/682d17899a57e938d88457b925493e95.jpg">
+        <h3>Peace Lily(Spathiphyllum)</h3>
+        <p>₹899</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/0f/55/57/0f5557affe297998411e58a0c08c9d26.jpg">
+        <h3>aglaonema</h3>
+        <p>₹999</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/d6/28/f2/d628f217f6a5667700f305c440a8ecd5.jpg">
+        <h3>Snake plant</h3>
+        <p>₹888</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/1200x/d2/99/8d/d2998ddc2fb99ae0cae4f82d003750f4.jpg">
+        <h3>Boston fern</h3>
+        <p>₹1000</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/19/f1/04/19f1041ffad3d54657a2ecf6923d309f.jpg">
+        <h3>Bamboo</h3>
+        <p>₹599</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/1200x/17/69/60/176960497e26c89317a0d11d458c2c7c.jpg">
+        <h3>Pot1</h3>
+        <p>₹500</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/1200x/52/28/cb/5228cbfa69ca8065601f0283ecb167aa.jpg">
+        <h3>Pot2</h3>
+        <p>₹499</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/1200x/b9/d0/84/b9d08480c5251f649c04b1a52e60ea18.jpg">
+        <h3>Pot3</h3>
+        <p>₹399</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/5c/47/f8/5c47f81a3e1fde6c1b646386b009f082.jpg">
+        <h3>Pot4</h3>
+        <p>₹899</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/31/35/de/3135deb3208062e6b5604d4556d65e7d.jpg">
+        <h3>Pot5</h3>
+        <p>₹766</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/ef/95/67/ef95678e52b5aacbcbad6305879b994e.jpg">
+        <h3>Tray1</h3>
+        <p>₹840</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/ba/76/8c/ba768c61a8aba175d05e765b5272bfbb.jpg">
+        <h3>Tray2</h3>
+        <p>₹900</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/1200x/15/76/f2/1576f2fb973e3f3afa9e1b6c2aef6463.jpg">
+        <h3>Tray3</h3>
+        <p>₹940</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/1200x/0c/d9/c3/0cd9c3067178c1a5184d1edbabb41f25.jpg">
+        <h3>Tray4</h3>
+        <p>₹750</p>
+        <button onclick="add()">+</button>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pinimg.com/1200x/88/81/58/888158fa3b1f3f823194b98bad1660f5.jpg">
+        <h3>Tray5</h3>
+        <p>₹300</p>
+        <button onclick="add()">+</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
